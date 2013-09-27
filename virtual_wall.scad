@@ -6,6 +6,12 @@ difference() {
   union() {
     top();
     bottom();
+	translate(v = [8,0,0]) {
+     cylinder(r = 10, h =1.5);
+   }
+	translate(v = [27,0,0]) {
+	  cylinder(r = 10, h =1.5);
+   }
   }
 
   // USB Hole
