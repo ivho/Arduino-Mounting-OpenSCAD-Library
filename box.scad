@@ -1,6 +1,6 @@
 $fn = 100;
-width = 40;
-depth = 40;
+width = 25;
+depth = 50;
 height = 15;
 wallThickness = 1.5;
 hingeOuter = 7;
@@ -14,8 +14,8 @@ pos = -depth/2;
 latchWidth = 8;
 z = 0;
 
-bottom();
-top();
+//bottom();
+//top();
 
 module bottom() {
 	union() {
